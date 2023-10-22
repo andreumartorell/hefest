@@ -2,7 +2,7 @@ import content from '../assets/content.json'
 import { useNavigate } from 'react-router-dom'
 
 
-export const ChangeLng = ({setInput, input, cookie, value}) => {
+export const ChangeLng = ({setInput, input, cookie}) => {
 
 let path = location.pathname
 
