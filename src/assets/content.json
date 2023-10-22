@@ -1,0 +1,42 @@
+{ 
+  "gen": {},
+  "cont" : {
+    "ca":{
+        "nav": ["", "Inici", "Nosaltres", "Contacte"],
+        "home": {
+          "title" : "Inici"
+        },
+        "about": {
+          "title" : "Nosaltres"
+        },
+        "contact": {
+          "title" : "Contacte"
+        }
+    },
+    "es": {
+        "nav": ["/es", "Inicio", "Nosotros", "Contacto"],
+        "home": {
+          "title" : "Inicio"
+        },
+        "about": {
+          "title" : "Nosotros"
+        },
+        "contact": {
+          "title" : "Contacto"
+        }
+    },
+    "en": {
+        "nav": ["/en", "Home", "About", "Contact"],
+        "home": {
+          "title" : "Home"
+        },
+        "about": {
+          "title" : "About"
+        },
+        "contact": {
+          "title" : "Contact"
+        }
+    }
+  }
+  
+}
