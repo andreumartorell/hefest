@@ -1,0 +1,19 @@
+.changelng button{
+  background: none;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  transition: 0.7s;
+}
+
+.changelng {
+  padding: 0;
+  display: flex;
+  width: 115px;
+  justify-content: space-between;
+}
+
+.changelng button:hover {
+  color: #7ca9af;
+}

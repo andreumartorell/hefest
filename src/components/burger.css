@@ -1,0 +1,52 @@
+.burger{
+  display: none;
+  cursor: pointer;
+  padding: 12px 0;
+  z-index: 1;
+}
+
+.burger div {
+  height: 2px;
+  width: 36px;
+  background: black;
+  margin: auto;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.burger div:nth-child(2), .burger div:nth-child(3) {
+  margin-top: 4px;
+}
+
+.burger div:nth-child(2) {
+  width: 26px;
+  opacity: 100%;
+}
+
+
+
+.burger div:nth-child(1).active{
+  -webkit-transform: translateY(6px) rotate(30deg);
+      -ms-transform: translateY(6px) rotate(30deg);
+          transform: translateY(6px) rotate(30deg)
+}
+
+.burger div:nth-child(2).active{
+  opacity: 0;
+  width: 0;
+  margin-left: 0;
+}
+
+.burger div:nth-child(3).active{
+  -webkit-transform: translateY(-6px) rotate(-30deg);
+      -ms-transform: translateY(-6px) rotate(-30deg);
+          transform: translateY(-6px) rotate(-30deg)
+}
+
+@media only screen and (max-width : 640px) {
+
+  .burger {
+    display: block;
+  }
+}

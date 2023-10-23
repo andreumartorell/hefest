@@ -1,4 +1,5 @@
 import content from '../assets/content.json'
+import './changelng.css'
 import { useNavigate } from 'react-router-dom'
 
 
@@ -20,11 +21,11 @@ const change = (e) => {
 
 
 return (
-  <div>
-    <button onClick={change} value='ca'>CA</button>
-    <button onClick={change} value='es'>ES</button>
-    <button onClick={change} value='en'>EN</button>
-  </div>
+  <ul className='changelng'>
+    <li><button onClick={change} value='ca'>CA</button></li>
+    <li><button onClick={change} value='es'>ES</button></li>
+    <li><button onClick={change} value='en'>EN</button></li>
+  </ul>
 )
 
 }
