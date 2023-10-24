@@ -5,9 +5,9 @@ let arr = ['ca', 'es', 'en']
 export const [ Home, Home_es, Home_en ] = arr.map(() => {
   return ({text}) => {
   return (
-    <div>
-    <h1>{text.home.title}</h1>
-    <p className="c-1">{text.home.info}</p>
-    </div>
+    <section className='section'>
+    <h1 className='section__h1'>{text.home.title}</h1>
+    <p className="section__text">{text.home.info}</p>
+    </section>
   )
 }})

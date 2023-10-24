@@ -5,42 +5,48 @@
         "nav": ["", "Inici", "Nosaltres", "Contacte"],
         "home": {
           "title" : "Inici",
-          "info" : "Som una empresa de Mecanització, estem ubicats a Sant Fruitós de Bages, disposem de una nau industrial de 700 mtrs2, operaris amb molta experiència i ens dediquem a la mecanització de tot tipus de peces, siguin peça única o remesa. Treballem amb material fèrrics, aluminis, bronzes, plàstic tècnics, etc. Disposem de centres de mecanitzat CNC, torn CNC, maquinaries auxiliar com de foradar, roscar, torns convencionals, etc. Disposem de un  espai de 500 M2 per si pot interessar fer Muntatges. Cotitzem els treballs en màxim 48h.",
-          "cr" : "Tots els drets reservats"
+          "info" : "Som una empresa de Mecanització, estem ubicats a Sant Fruitós de Bages, disposem de una nau industrial de 700 mtrs2, operaris amb molta experiència i ens dediquem a la mecanització de tot tipus de peces, siguin peça única o remesa. Treballem amb material fèrrics, aluminis, bronzes, plàstic tècnics, etc. Disposem de centres de mecanitzat CNC, torn CNC, maquinaries auxiliar com de foradar, roscar, torns convencionals, etc. Disposem de un  espai de 500 M2 per si pot interessar fer Muntatges. Cotitzem els treballs en màxim 48h."
         },
         "about": {
           "title" : "Nosaltres"
         },
         "contact": {
           "title" : "Contacte"
+        }, 
+        "footer" : {  
+         "cr" : "Tots els drets reservats"
         }
     },
     "es": {
         "nav": ["/es", "Inicio", "Nosotros", "Contacto"],
         "home": {
           "title" : "Inicio",
-          "info" : "Somos una empresa de Mecanización, estamos ubicados en Sant Fruitós de Bages, disponemos de una nave industrial de 700 mtrs2, operarios con mucha experiencia y nos dedicamos a la mecanización de todo tipo de piezas, sean pieza única o remitida. Trabajamos con material férricos, aluminios, bronces, plástico técnicos, etc. Disponemos de centros de mecanizado CNC, torno CNC, maquinaria auxiliar como de agujerear, roscar, tornos convencionales, etc. Disponemos de un espacio de 500 M2 por si puede interesar realizar Montajes. Cotizamos los trabajos en máximo 48h.",
-          "cr" : "Todos los derechos reservados"
+          "info" : "Somos una empresa de Mecanización, estamos ubicados en Sant Fruitós de Bages, disponemos de una nave industrial de 700 mtrs2, operarios con mucha experiencia y nos dedicamos a la mecanización de todo tipo de piezas, sean pieza única o remitida. Trabajamos con material férricos, aluminios, bronces, plástico técnicos, etc. Disponemos de centros de mecanizado CNC, torno CNC, maquinaria auxiliar como de agujerear, roscar, tornos convencionales, etc. Disponemos de un espacio de 500 M2 por si puede interesar realizar Montajes. Cotizamos los trabajos en máximo 48h."
         },
         "about": {
           "title" : "Nosotros"
         },
         "contact": {
           "title" : "Contacto"
+        }, 
+        "footer" : {  
+          "cr" : "Todos los derechos reservados"
         }
     },
     "en": {
         "nav": ["/en", "Home", "About", "Contact"],
         "home": {
           "title" : "Home",
-          "info" : "We are a mecanical company, we are located in Sant Fruitós de Bages, we have an industrial warehouse of 700 mtrs2, operators with a lot of experience and we are dedicated to the machining of all types of parts, whether they are single pieces or consignments. We work with ferrous material, aluminum, bronze, technical plastic, etc. We have CNC machining centers, CNC lathes, auxiliary machinery such as drilling, threading, conventional lathes, etc. We have a space of 500 M2 in case you are interested in making Assemblies. We quote the work within a maximum of 48 hours.",
-          "cr" : "All rights reserved"
+          "info" : "We are a mecanical company, we are located in Sant Fruitós de Bages, we have an industrial warehouse of 700 mtrs2, operators with a lot of experience and we are dedicated to the machining of all types of parts, whether they are single pieces or consignments. We work with ferrous material, aluminum, bronze, technical plastic, etc. We have CNC machining centers, CNC lathes, auxiliary machinery such as drilling, threading, conventional lathes, etc. We have a space of 500 M2 in case you are interested in making Assemblies. We quote the work within a maximum of 48 hours."
         },
         "about": {
           "title" : "About"
         },
         "contact": {
           "title" : "Contact"
+        }, 
+        "footer" : {  
+          "cr" : "All rights reserved"
         }
     }
   }

@@ -4,12 +4,8 @@ import './burger.css'
 export const Burger = () => {
   useEffect(()=>{
   let burger =  document.querySelector('.burger')
-  let bar =  document.querySelectorAll('.burger > div')
-  // let nav =  document.querySelector('.nav')
-  // let section =  document.querySelectorAll('.naveg > li')
-  // let select =  document.querySelector('.select')
-  // let logo =  document.querySelector('#logo > a > svg')
-  let naveg =  document.querySelector('.naveg > ul')
+  let bar =  document.querySelectorAll('.burger__bar')
+  let naveg =  document.querySelector('.nav__items')
   let body =  document.querySelector('body')
 
   let element = [...bar, naveg, body]
@@ -19,10 +15,7 @@ export const Burger = () => {
     element.forEach( n => n.classList.toggle('active'))
   })
 
-  // let logolink =  document.querySelector('#logo > a')
-  let links = document.querySelectorAll('.naveg > ul> li > a')
-  // links = [...links]
-
+  let links = document.querySelectorAll('.nav__link')
   links.forEach(n => n.addEventListener("click", () => {
     element.forEach( n => n.classList.remove('active'))
   }))
@@ -31,9 +24,9 @@ export const Burger = () => {
   return (
     <>
       <div className='burger'>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div className="burger__bar"></div>
+        <div className="burger__bar"></div>
+        <div className="burger__bar"></div>
       </div>
     </>
   )

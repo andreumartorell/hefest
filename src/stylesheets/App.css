@@ -1,11 +1,18 @@
-.naveg {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.main {
   margin: 20px;
 }
 
-.naveg ul {
+.nav-container {
+  margin: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__items {
   padding: 0;
   display: flex;
   justify-content: flex-start;
@@ -13,20 +20,21 @@
   margin: 0;
 }
 
-.naveg li {
+.nav__item {
   margin-right: 15%;
 }
 
-.naveg li a {
+.nav__link {
   border-bottom: 0px solid black;
+  color: black;
 }
 
-.naveg li a.is-active {
+.nav__link--is-active {
   padding-bottom: 2px;
   border-bottom: 2px solid black;
 }
 
-.naveg li a:after {
+.nav__link:after {
   display: block;
   content: '';
   position: relative;
@@ -41,7 +49,7 @@
   z-index: -1;
 }
 
-.naveg li:hover a:after{
+.nav__link:hover:after{
   width: 100%;
 }
 
@@ -49,40 +57,46 @@
   cursor: pointer;
 }
 
-.logo-path {
+.logo__path {
   fill: black;
   /* fill: #7ca9af; */
   transition: 0.7s;
 }
 
-.logo:hover .logo-path {
+.logo:hover .logo__path {
   fill: #7ca9af;
 }
 
-.container {
-  margin: 0 20px;
-}
-
-.footer__container {
-  display: flex;
-  align-items: center;
-  margin: 0 20px;
-  justify-content: space-between;
-}
-
-footer {
+.footer {
   color: white;
   background-color: black;
+  font-size: 13px;
+  padding: 0 20px;
 }
 
-.footer__container .cr, .footer__container a {
-  font-size: 13px;
+.footer a {
   color: white;
+}
+
+.footer__items {
+  align-items: start;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4,22%);
+  padding: 14px 0px;
+  grid-template-rows: repeat(2,41px);
+  margin: 0;
+  line-height: 16px;
+}
+
+.footer__item--end-credit {
+  grid-column: 4/4;
+  align-self: flex-end;
 }
 
 @media only screen and (max-width : 1000px) {}
 @media only screen and (max-width : 640px) {
-.naveg ul{
+.nav__items{
   flex-direction: column;
   position: fixed;
   width: 100%;
@@ -95,13 +109,13 @@ footer {
   justify-content: center;
 }
 
-.naveg li {
+.nav__item {
   font-size: 36px;
   text-align: right;
   padding: 5vh 0;
 }
 
-.naveg ul.active{
+.nav__items.active{
   right: 0;
   visibility: visible;
 }

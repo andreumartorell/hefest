@@ -5,7 +5,7 @@
   z-index: 1;
 }
 
-.burger div {
+.burger__bar {
   height: 2px;
   width: 36px;
   background: black;
@@ -23,8 +23,6 @@
   width: 26px;
   opacity: 100%;
 }
-
-
 
 .burger div:nth-child(1).active{
   -webkit-transform: translateY(6px) rotate(30deg);

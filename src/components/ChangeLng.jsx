@@ -22,9 +22,9 @@ const change = (e) => {
 
 return (
   <ul className='changelng'>
-    <li><button onClick={change} value='ca'>CA</button></li>
-    <li><button onClick={change} value='es'>ES</button></li>
-    <li><button onClick={change} value='en'>EN</button></li>
+    <li><button className='changelng__lng' onClick={change} value='ca'>CA</button></li>
+    <li><button className='changelng__lng' onClick={change} value='es'>ES</button></li>
+    <li><button className='changelng__lng' onClick={change} value='en'>EN</button></li>
   </ul>
 )
 
