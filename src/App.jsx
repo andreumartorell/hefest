@@ -52,7 +52,7 @@ function App() {
         <div className='nav-container'>
           <nav className='nav'>
             <div className='logo'>
-              <Logo />
+              <Link to={`${r}/`}><Logo /></Link>
             </div>
           <ul className='nav__items'>
             <li className='nav__item'><NavLink className={({isActive}) => {return isActive ? 'nav__link nav__link--is-active' : 'nav__link'}} to={`${r}/`}>{home}</NavLink></li>
@@ -86,12 +86,26 @@ function App() {
       </main>
     <footer className='footer'>
       <ul className='footer__items'>
-        <li className='footer__item'><ChangeLng setInput={setInput} input={input} cookie={cookie}/></li>
-        <li className='footer__item'><a className='footer__mail' href="mailto:taller@hefest.es">taller@hefest.es</a></li>
-        <li className="footer__item"><a className='footer__phone' href=''> 93 247 1545</a></li>
-        <li className="footer__item"><a className='footer__loc' href=''>C/la coma 41 (Pol. Ind. Pla de Santa Anna) 08272 Sant Fruitós de Bages.</a></li>
-        <li className='footer__item footer__item--end-credit'><span className='footer__copyright'>©2023 Hefest. {content.cont[input].footer.cr}.</span></li>
+        <li className='footer__item footer__item--2c'>
+          <ChangeLng setInput={setInput} input={input} cookie={cookie}/></li>
+        <li className="footer__item">
+          <a className='footer__phone' href='tel:+34 93 247 1545'>
+            <i className="footer__i fa-solid fa-phone"></i>
+            <hr className='footer__item-hr'></hr>+34 932 47 15 45
+          </a>
+        </li>
+        <li className="footer__item">
+          <a className='footer__phone' href='whatsapp://send?phone=34 640 38 71 76'>
+            <i className="footer__i footer__i--big fa-brands fa-whatsapp"></i>
+            <hr className='footer__item-hr'></hr>+34 640 38 71 76
+          </a>
+        </li>
+        <li className='footer__item'><a className='footer__mail' href="mailto:taller@hefest.es"><i className="footer__i fa-solid fa-envelope"></i><hr className='footer__item-hr'></hr>taller@hefest.es</a></li>
+        <li className="footer__item"><a className='footer__loc' target='_blank' href='https://www.google.com/maps/place/Hefest+Mecanitzats/@41.7788092,1.8713967,16.75z/data=!4m6!3m5!1s0x12a4f9c8b52a1631:0xaa0f14a460583c37!8m2!3d41.7790856!4d1.8708232!16s%2Fg%2F11tgf7shxm?entry=ttu'>C/ la Coma 41 (Pol. Ind. Pla de Santa Anna) 08272 Sant Fruitós de Bages.</a></li>
       </ul>
+      <hr className='footer__hr'></hr>
+      <p className='footer__copyright'>©2023 Hefest. {content.cont[input].footer.cr}.</p>
+
     </footer>
     </>
   )

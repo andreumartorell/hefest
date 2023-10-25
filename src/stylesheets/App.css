@@ -1,5 +1,5 @@
 .main {
-  margin: 20px;
+  margin: 20px 20px 40px 20px;
 }
 
 .nav-container {
@@ -71,7 +71,7 @@
   color: white;
   background-color: black;
   font-size: 13px;
-  padding: 0 20px;
+  padding: 30px 0 20px;
 }
 
 .footer a {
@@ -80,22 +80,60 @@
 
 .footer__items {
   align-items: start;
-  justify-content: center;
+  justify-content: space-between;
   display: grid;
-  grid-template-columns: repeat(4,22%);
-  padding: 14px 0px;
-  grid-template-rows: repeat(2,41px);
+  grid-template-columns: repeat(3,32%);
+  grid-template-rows: repeat(2,auto);
+  grid-row-gap: 21px;
   margin: 0;
   line-height: 16px;
+  grid-auto-flow: column;
+  padding: 0 5%;
 }
 
-.footer__item--end-credit {
-  grid-column: 4/4;
-  align-self: flex-end;
+.footer__item--2c {
+  grid-row: 1/3;
+}
+
+.footer__i {
+  margin-right: 9px;
+}
+
+.footer__i--big {
+  font-size: 15px;
+}
+
+.footer__item-hr{
+  width: 0;
+  text-align: left;
+  margin: 0 7px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid;
+  transition: 1s;
+}
+
+.footer__item:hover .footer__item-hr{
+  width: 20px;
+}
+
+.footer__hr {
+  border-style: solid;
+  margin: 20px 0;
+}
+
+.footer__copyright {
+  padding-left: 5%;
+  margin: 0;
 }
 
 @media only screen and (max-width : 1000px) {}
 @media only screen and (max-width : 640px) {
+
+.nav__link:hover:after{
+  width: 0;
+}
+
 .nav__items{
   flex-direction: column;
   position: fixed;
@@ -120,5 +158,29 @@
   visibility: visible;
 }
 
+.logo:hover .logo__path {
+  fill: black;
 }
+
+.footer__items {
+  grid-template-columns: 1fr;
+  grid-auto-flow: row;
+  grid-gap: 50px;
+  padding: 0 20px;
+}
+
+.footer__item--2c {
+  grid-row: auto;
+}
+
+.footer__item-hr {
+  display: none;
+}
+
+.footer__copyright{
+  padding: 0 20px;
+}
+
+}
+
 @media only screen and (max-width : 300px) {}

@@ -1,19 +1,34 @@
 .changelng {
   padding: 0;
   display: flex;
-  width: 115px;
+  width: 83px;
   justify-content: space-between;
 }
 
 .changelng__lng{
   background: none;
   border: none;
-  font-size: 15px;
+  font-size: 13px;
   cursor: pointer;
   color: white;
   transition: 0.7s;
+  padding: 0;
 }
 
 .changelng__lng:hover {
   color: #7ca9af;
 }
+
+@media only screen and (max-width : 640px) {
+.changelng {
+  height: 120px;
+  flex-direction: column;
+}
+}  
+
+/* @media only screen and (max-width : 400px) {
+  .changelng {
+    width: 100%;
+  }
+  }   */
+  
