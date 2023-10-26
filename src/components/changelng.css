@@ -24,11 +24,4 @@
   height: 120px;
   flex-direction: column;
 }
-}  
-
-/* @media only screen and (max-width : 400px) {
-  .changelng {
-    width: 100%;
-  }
-  }   */
-  
+}

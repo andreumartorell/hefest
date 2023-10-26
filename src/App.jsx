@@ -68,15 +68,15 @@ function App() {
         <Routes>
           <Route path='/' element={<Home text={text}/>} />
           <Route path='/about' element={<About text={text}/>} />
-          <Route path='/contact' element={<Contact text={text}/>} />
+          <Route path='/contact' element={<Contact text={text} input={input}/>} />
 
           <Route path='/es/' element={<Home_es text={text}/>} />
           <Route path='/es/about' element={<About_es text={text}/>} />
-          <Route path='/es/contact' element={<Contact_es text={text}/>} />
+          <Route path='/es/contact' element={<Contact_es text={text} input={input}/>} />
 
           <Route path='/en/' element={<Home_en text={text}/>} />
           <Route path='/en/about' element={<About_en text={text}/>} />
-          <Route path='/en/contact' element={<Contact_en text={text}/>} />
+          <Route path='/en/contact' element={<Contact_en text={text} input={input}/>} />
 
           <Route path='*' element={ 
             value=='es' ? <Navigate to='/es/'/> :  

@@ -1,0 +1,31 @@
+.contact-form {
+  width: 50%;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  grid-gap: 7px;
+}
+
+.contact-form__input {
+  border: 1px solid #c9c9c9;
+  border: none;
+  padding: 13px;
+  font-family: monospace;
+}
+
+.contact-form__input--2c {
+  grid-column: span 2;
+}
+
+.contact-form__buttons {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 7px;
+}
+
+.contact-form__button{
+  border: none;
+  padding: 14px;
+  background: cornflowerblue;
+  width: 100%;
+}
