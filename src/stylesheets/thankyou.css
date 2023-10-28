@@ -1,0 +1,36 @@
+.section-thankyou {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-thankyou__h1 {
+  text-align: center;
+  margin: 120px auto;
+  font-size: 50px;
+  width: 631px;
+}
+
+.section-thankyou__img {
+  display: block;
+  margin: 0px auto 130px;
+  width: 520px;
+}
+
+.section-thankyou__button {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(102, 125, 228);;
+  border-radius: 50px;
+  border: 2px solid rgb(102, 125, 228);;
+  display: inline-block;
+  padding: 15px 28px;
+  font-size: 22px;
+  margin-bottom: 80px;
+  transition: 0.7s;
+}
+
+.section-thankyou__button:hover {
+background-color: rgb(102, 125, 228);
+color: white;
+}

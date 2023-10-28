@@ -4,15 +4,18 @@
     "ca":{
         "nav": ["", "Inici", "Nosaltres", "Contacte"],
         "home": {
-          "title" : "Inici",
+          "title" : "Hefest mecanitzats",
           "info" : "Som una empresa de Mecanització, estem ubicats a Sant Fruitós de Bages, disposem de una nau industrial de 700 mtrs2, operaris amb molta experiència i ens dediquem a la mecanització de tot tipus de peces, siguin peça única o remesa. Treballem amb material fèrrics, aluminis, bronzes, plàstic tècnics, etc. Disposem de centres de mecanitzat CNC, torn CNC, maquinaries auxiliar com de foradar, roscar, torns convencionals, etc. Disposem de un  espai de 500 M2 per si pot interessar fer Muntatges. Cotitzem els treballs en màxim 48h."
         },
         "about": {
           "title" : "Nosaltres"
         },
         "contact": {
-          "title" : "Contacte"
-        }, 
+          "title" : "Vols començar un projecte? Parlem!",
+          "form" : ["Nom", "Cognom", "Email", "Missatge", "Esborrar", "Enviar"],
+          "legal" : "La informació enviada no es guardarà a cap base de dades."
+        },
+        "thankyou" : [ "Gràcies! el teu missatge s’ha enviat correctament", "Tornar"],
         "footer" : {  
          "cr" : "Tots els drets reservats"
         }
@@ -27,8 +30,11 @@
           "title" : "Nosotros"
         },
         "contact": {
-          "title" : "Contacto"
-        }, 
+          "title" : "¿Quieres empezar un proyecto? ¡Hablemos!",
+          "form" : ["Nombre", "Apellido", "Email", "Mensaje", "Borrar", "Enviar"],
+          "legal" : "La información enviada no se guardará en ninguna base de datos."
+        },
+        "thankyou" : ["¡Gracias! tu mensaje se ha enviado correctamente", "Volver"],
         "footer" : {  
           "cr" : "Todos los derechos reservados"
         }
@@ -43,8 +49,11 @@
           "title" : "About"
         },
         "contact": {
-          "title" : "Contact"
-        }, 
+          "title" : "Do you want to start a project? Let's talk!",
+          "form" : ["Name", "Surname", "Email", "Message", "Reset", "Send"],
+          "legal" : "The information sent will not be saved in any database."
+        },
+        "thankyou" : ["Thanks! Your message has been sent successfully", "Go back"],
         "footer" : {  
           "cr" : "All rights reserved"
         }

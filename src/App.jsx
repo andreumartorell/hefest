@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link, Route, Routes, NavLink, useNavigate, Navigate } from 'react-router-dom'
 import './stylesheets/App.css'
 import { Home, Home_es, Home_en } from './pages/Home'
+import { Thankyou, Thankyou_es, Thankyou_en } from './pages/Thankyou'
 import { About, About_es, About_en } from './pages/About'
 import { Contact, Contact_es, Contact_en } from './pages/Contact'
 import content from './assets/content.json'
@@ -68,15 +69,18 @@ function App() {
         <Routes>
           <Route path='/' element={<Home text={text}/>} />
           <Route path='/about' element={<About text={text}/>} />
-          <Route path='/contact' element={<Contact text={text} input={input}/>} />
+          <Route path='/contact' element={<Contact text={text} input={input} r={r}/>} />
+          <Route path='/thankyou' element={<Thankyou text={text} r={r}/>} />
 
           <Route path='/es/' element={<Home_es text={text}/>} />
           <Route path='/es/about' element={<About_es text={text}/>} />
-          <Route path='/es/contact' element={<Contact_es text={text} input={input}/>} />
+          <Route path='/es/contact' element={<Contact_es text={text} input={input} r={r}/>} />
+          <Route path='/es/thankyou' element={<Thankyou_es text={text} r={r}/>} />
 
           <Route path='/en/' element={<Home_en text={text}/>} />
           <Route path='/en/about' element={<About_en text={text}/>} />
-          <Route path='/en/contact' element={<Contact_en text={text} input={input}/>} />
+          <Route path='/en/contact' element={<Contact_en text={text} input={input} r={r}/>} />
+          <Route path='/en/thankyou' element={<Thankyou_en text={text} r={r}/>} />
 
           <Route path='*' element={ 
             value=='es' ? <Navigate to='/es/'/> :  
