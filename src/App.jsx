@@ -1,16 +1,16 @@
 import { useState, useEffect } from 'react'
 import { Link, Route, Routes, NavLink, useNavigate, Navigate } from 'react-router-dom'
+import Cookies from 'universal-cookie'
 import './stylesheets/App.css'
+import content from './assets/content.json'
 import { Home, Home_es, Home_en } from './pages/Home'
 import { Thankyou, Thankyou_es, Thankyou_en } from './pages/Thankyou'
 import { About, About_es, About_en } from './pages/About'
 import { Contact, Contact_es, Contact_en } from './pages/Contact'
-import content from './assets/content.json'
-import { test } from './modules/test'
 import { ChangeLng } from './components/ChangeLng'
-import Cookies from 'universal-cookie'
-import {Logo} from './components/logo'
+import { Logo } from './components/Logo'
 import { Burger } from './components/Burger'
+import { ArrowUp } from './components/Arrowup'
 
 
 function App() {
@@ -49,7 +49,6 @@ function App() {
   return (
     <>
     <header>
-      
         <div className='nav-container'>
           <nav className='nav'>
             <div className='logo'>
@@ -63,7 +62,6 @@ function App() {
           <Burger />
           </nav>
         </div>
-      
     </header>
       <main className='main'>
         <Routes>
@@ -87,6 +85,7 @@ function App() {
             value=='en' ? <Navigate to='/en/'/> : 
             <Navigate to='/'/> }/>
         </Routes>
+        <ArrowUp />
       </main>
     <footer className='footer'>
       <ul className='footer__items'>

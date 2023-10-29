@@ -1,10 +1,21 @@
+.section__h1 {
+  margin: 130px 411px 60px;
+  font-size: 113px;
+  line-height: 81px;
+  width: 550px;
+}
+
+.section__copy {
+  display: flex;
+}
+
 .section__text {
   width: 480px;
-  margin: 20px auto;
+  margin: 30px 80px;
+  line-height: 25px;
 }
 
 .section__img{
   width: 460px;
   display: block;
-  border-radius: 40px;
 }
