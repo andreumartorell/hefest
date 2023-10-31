@@ -65,17 +65,17 @@ function App() {
     </header>
       <main className='main'>
         <Routes>
-          <Route path='/' element={<Home text={text}/>} />
+          <Route path='/' element={<Home text={text} r={r}/>} />
           <Route path='/about' element={<About text={text}/>} />
           <Route path='/contact' element={<Contact text={text} input={input} r={r}/>} />
           <Route path='/thankyou' element={<Thankyou text={text} r={r}/>} />
 
-          <Route path='/es/' element={<Home_es text={text}/>} />
+          <Route path='/es/' element={<Home_es text={text} r={r}/>} />
           <Route path='/es/about' element={<About_es text={text}/>} />
           <Route path='/es/contact' element={<Contact_es text={text} input={input} r={r}/>} />
           <Route path='/es/thankyou' element={<Thankyou_es text={text} r={r}/>} />
 
-          <Route path='/en/' element={<Home_en text={text}/>} />
+          <Route path='/en/' element={<Home_en text={text} r={r}/>} />
           <Route path='/en/about' element={<About_en text={text}/>} />
           <Route path='/en/contact' element={<Contact_en text={text} input={input} r={r}/>} />
           <Route path='/en/thankyou' element={<Thankyou_en text={text} r={r}/>} />

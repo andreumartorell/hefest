@@ -5,7 +5,9 @@
         "nav": ["", "Inici", "Nosaltres", "Contacte"],
         "home": {
           "title" : "Hefest mecanitzats",
-          "info" : "Benvigut/da! Som Hefest, una empresa de Mecanització ubicada a Sant Fruitós de Bages. Disposem de una nau industrial de 700 m2, operaris amb molta experiència i amor per aquesta feina. Ens dediquem a la mecanització de tot tipus de peces, siguin peça única o remesa. Treballem amb materials fèrrics, aluminis, bronzes, plàstic tècnics, etc. Disposem de centres de mecanitzat CNC, torn CNC, maquinaries auxiliar com de foradar, roscar, torns convencionals, etc. Disposem de un espai de 500 M2 per si pot interessar fer Muntatges. Cotitzem els treballs en màxim 48h."
+          "info" : "Benvigut/da! Som Hefest, una empresa de Mecanització ubicada a Sant Fruitós de Bages. Ens dediquem a la mecanització de tot tipus de peces, siguin peça única o remesa. Cotitzem els treballs en màxim 48h. Tens un projecte en ment?",
+          "info_2" : "Contacta amb nosaltres",
+          "info_3" : "Disposem de una nau industrial de 700 m2, operaris amb molta experiència i amor per aquesta feina. Treballem amb materials fèrrics, aluminis, bronzes, plàstic tècnics, etc. Disposem de centres de mecanitzat CNC, torn CNC, maquinaries auxiliar com de foradar, roscar, torns convencionals, etc. Disposem de un espai de 500 M2 per si pot interessar fer Muntatges.  "
         },
         "about": {
           "title" : "Nosaltres"

@@ -33,6 +33,10 @@ a {
   color: black;
 }
 
+button {
+  cursor: pointer;
+}
+
 body.active {
   overflow: hidden;
 }
