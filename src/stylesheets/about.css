@@ -1,0 +1,123 @@
+.about-hero {
+  width: 40%;
+  margin: 125px auto;
+  /* background-image: url('/about/mech_b.jpg'); */
+}
+.about-hero__text {
+  line-height: 154%;
+}
+.text-column {
+  width: 50%;
+  line-height: 154%;
+}
+.about-mach {
+  padding: 100px 20px;
+}
+.about-mach--color {
+  background: #87b2ff;
+  padding-right: 4vw;
+}
+.about-mach__machine {
+  display: flex;
+  gap: 4vw;
+  justify-content: flex-end;
+}
+.about-mach__machine--reverse {
+  flex-direction: row-reverse;
+}
+.about-mach__h1 {
+  margin: 0 0 40px;
+  font-weight: 100;
+  line-height: 110%;
+  font-size: 40px;
+}
+.about-mach__h1--w {
+  color: white;
+}
+.about-mach__item {
+  width: 50%;
+}
+.about-mach__item--left {
+  width: auto;
+}
+.about-mach__text {
+  line-height: 154%;
+  width: 31vw;
+}
+.about-mach__img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.about-mach__img--1{
+  object-position: 45% 0;
+}
+.about-mach__img--2 {
+  object-position: 79% 0;
+}
+.about-mach__img--3 {
+  object-position: 31% 0;
+}
+.link-contact {
+  display: flex;
+  margin: 105px 0 170px;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.link-contact__text {
+  margin: 0;
+  font-size: 35px;
+  font-family: 'PT Serif', serif;
+  text-align: center;
+}
+@media only screen and (max-width: 1200px ){
+  .about-mach__item--left {
+    width: 50%;
+  }
+  .about-mach__text {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1000px ){
+  .about-hero {
+    width: 60%;
+  }
+  .text-column {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 800px ){
+  .about-hero {
+    width: 100%;
+  }
+  .about-hero__h1 {
+    font-size: 12vw;
+  }
+  .about-mach__machine {
+    flex-direction: column;
+  }
+  .about-mach--color {
+    padding-right: 20px;
+  }
+  .about-mach__item {
+    width: 100%;
+  }
+  .about-mach__h1 {
+    font-size: 9vw;
+  }
+  .about-mach__img {
+    height: 75vw;
+  }
+  .link-contact {
+    margin-bottom: 100px;
+  }
+  .link-contact__text {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 300px ){
+  .about-hero {
+    margin: 22vw 0 7vh;
+  }
+}

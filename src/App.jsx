@@ -12,7 +12,6 @@ import { Logo } from './components/Logo'
 import { Burger } from './components/Burger'
 import { ArrowUp } from './components/Arrowup'
 
-
 function App() {
 
   const cookie = new Cookies();
@@ -38,12 +37,20 @@ function App() {
     const navigate = useNavigate()
 
   useEffect(()=>{
-
     let arr = location.pathname.split('/')
-
     if (arr[1] =='en' || arr[1] =='es' ) arr.shift()
     else arr[0] = 'ca'
     if(arr[0] !== input) setInput(arr[0])
+
+    let buttons = document.querySelectorAll('.section__button')
+    buttons.forEach((n)=>{
+      n.addEventListener('click', () => {
+        if (window.scrollY != 0) {
+          window.scrollTo(0, 0)
+        }
+      })
+    })
+
   })
 
   return (
@@ -56,7 +63,7 @@ function App() {
             </div>
           <ul className='nav__items'>
             <li className='nav__item'><NavLink className={({isActive}) => {return isActive ? 'nav__link nav__link--is-active' : 'nav__link'}} to={`${r}/`}>{home}</NavLink></li>
-            <li className='nav__item'><NavLink className={({isActive}) => {return isActive ? 'nav__link nav__link--is-active' : 'nav__link'}} to={`${r}/about`}>{about}</NavLink></li>
+            <li className='nav__item'><NavLink className={({isActive}) => {return isActive ? 'nav__link nav__link--is-active' : 'nav__link'}} to={`${r}/equipment`}>{about}</NavLink></li>
             <li className='nav__item'><NavLink className={({isActive}) => {return isActive ? 'nav__link nav__link--is-active' : 'nav__link'}} to={`${r}/contact`}>{contact}</NavLink></li>
           </ul>
           <Burger />
@@ -66,17 +73,17 @@ function App() {
       <main className='main'>
         <Routes>
           <Route path='/' element={<Home text={text} r={r}/>} />
-          <Route path='/about' element={<About text={text}/>} />
+          <Route path='/equipment' element={<About text={text} r={r}/>} />
           <Route path='/contact' element={<Contact text={text} input={input} r={r}/>} />
           <Route path='/thankyou' element={<Thankyou text={text} r={r}/>} />
 
           <Route path='/es/' element={<Home_es text={text} r={r}/>} />
-          <Route path='/es/about' element={<About_es text={text}/>} />
+          <Route path='/es/equipment' element={<About_es text={text} r={r}/>} />
           <Route path='/es/contact' element={<Contact_es text={text} input={input} r={r}/>} />
           <Route path='/es/thankyou' element={<Thankyou_es text={text} r={r}/>} />
 
           <Route path='/en/' element={<Home_en text={text} r={r}/>} />
-          <Route path='/en/about' element={<About_en text={text}/>} />
+          <Route path='/en/equipment' element={<About_en text={text} r={r}/>} />
           <Route path='/en/contact' element={<Contact_en text={text} input={input} r={r}/>} />
           <Route path='/en/thankyou' element={<Thankyou_en text={text} r={r}/>} />
 

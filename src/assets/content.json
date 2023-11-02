@@ -1,16 +1,31 @@
 { 
-  "gen": {},
+  "gen": {
+    "url" : ["equipment", "contact", "thankyou"]
+  },
   "cont" : {
     "ca":{
         "nav": ["", "Nosaltres", "Equip", "Contacte"],
         "home": {
           "title" : "Hefest mecanitzats",
-          "info" : "Benvigut/da! Som Hefest, una empresa de Mecanització ubicada a Sant Fruitós de Bages. Ens dediquem a la mecanització de tot tipus de peces, siguin peça única o remesa. Cotitzem els treballs en màxim 48h. Tens un projecte en ment?",
-          "info_2" : "Contacta amb nosaltres",
-          "info_3" : "Disposem de una nau industrial de 700 m2, operaris amb molta experiència i amor per aquesta feina. Treballem amb materials fèrrics, aluminis, bronzes, plàstic tècnics, etc. Disposem de centres de mecanitzat CNC, torn CNC, maquinaries auxiliar com de foradar, roscar, torns convencionals, etc. Disposem de un espai de 500 M2 per si pot interessar fer Muntatges."
+          "copy" : [
+            "Benvigut/da! Som Hefest, una empresa de Mecanització ubicada a Sant Fruitós de Bages. Ens dediquem a la mecanització de tot tipus de peces, siguin peça única o remesa. Cotitzem els treballs en màxim 48h. Tens un projecte en ment?",
+            "Ho fem tot amb carinyo",
+            "Com treballem",
+            "Disposem de una nau industrial de 700 m2, operaris amb molta experiència i amor per aquesta feina. Treballem amb materials fèrrics, aluminis, bronzes, plàstic tècnics, etc. Disposem de centres de mecanitzat CNC, torn CNC, maquinaries auxiliar com de foradar, roscar, torns convencionals, etc. Disposem de un espai de 500 M2 per si pot interessar fer Muntatges."],
+          "buttons" : ["Contacta amb nosaltres", "Veure maquinària"]
         },
         "about": {
-          "title" : "Maquinària"
+          "title" : "Maquinària",
+          "copy" : [
+            "Som una empresa líder al sector de mecanitzats, i el nostre compromís amb la qualitat i l'eficiència es reflecteix a cada projecte que abordem. Amb un parc de maquinària avançat i tecnologia punta, estem equipats per abordar projectes de mecanització de qualsevol escala i complexitat. El nostre equip d'experts altament capacitats treballa amb les nostres màquines de precisió per crear els millors components.",
+            "Centre de mecanitzat ANAYAK",
+            "Una impressionant i versàtil màquina industrial dissenyada per realitzar una àmplia gamma d'operacions de mecanitzat d'alta precisió. Aquests centres de mecanitzat destaquen per la seva avançada tecnologia i característiques que els converteixen en eines indispensables. Equipats amb sistemes de control numèric CNC d'última generació, permeten programar i executar operacions de mecanització amb precisió microscòpica, fet que es tradueix en productes finals d'alta qualitat i toleràncies ajustades.",
+            "Fresadora de control numèric CME",
+            "Una eina altament especialitzada que combina la versatilitat del fresat amb la precisió i l'automatització d'un sistema de control numèric. Aquestes màquines, fabricades per la reconeguda empresa espanyola CME, són àmpliament utilitzades a la indústria manufacturera per produir peces i components amb una qualitat excepcional.",
+            "Centre de mecanitzat HAAS",
+            "Fabricat per l'empresa nord-americana Haas Automation, aquest equip es destaca per la seva qualitat, innovació i capacitat per fer una àmplia gamma d'operacions de mecanitzat amb gran eficiència. Compten amb diversos eixos de moviment que permeten realitzar una varietat d'operacions complexes en una sola configuració.",
+            "Tens un projecte en ment?"], 
+          "buttons" : "Contacta amb nosaltres"
         },
         "contact": {
           "title" : "Vols començar un projecte? Parlem!",
@@ -25,11 +40,26 @@
     "es": {
         "nav": ["/es", "Nosotros", "Equipo", "Contacto"],
         "home": {
-          "title" : "Inicio",
-          "info" : "¡Bienvenido/a! Somos Hefest, una empresa de Mecanización ubicada en Sant Fruitós de Bages. Disponemos de una nave industrial de 700 m2, operarios con mucha experiencia y amor por este trabajo. Nos dedicamos al mecanizado de todo tipo de piezas, sean pieza única o remitida. Trabajamos con materiales férricos, aluminios, bronces, plástico técnicos, etc. Disponemos de centros de mecanizado CNC, torno CNC, maquinaria auxiliar como de agujerear, roscar, tornos convencionales, etc. Disponemos de un espacio de 500 M2 por si puede interesar realizar Montajes. Cotizamos los trabajos en máximo 48h."
+          "title" : "Hefest mecanitzats",
+          "copy" : [
+            "Bienvenido/a! Somos Hefest, una empresa de Mecanización ubicada en Sant Fruitós de Bages. Nos dedicamos a la mecanización de todo tipo de piezas, sean pieza única o remesa. Cotizamos los trabajos en máximo 48h. ¿Tienes un proyecto en mente?" ,
+            "Lo hacemos todo con cariño",
+            "Cómo trabajamos",
+            "Disponemos de una nave industrial de 700 m2, operarios con mucha experiencia y amor por este trabajo. Trabajamos con materiales férricos, aluminios, bronces, plástico técnicos, etc. Disponemos de centros de mecanizado CNC, torno CNC, maquinaria auxiliar como de agujerear, roscar, turnos convencionales, etc. Disponemos de un espacio de 500 M2 por si puede interesar hacer montajes."],
+          "buttons" : ["Contáctanos", "Ver maquinaria"]
         },
         "about": {
-          "title" : "Maquinaria"
+          "title" : "Maquinaria",
+          "copy" : [
+            "Somos una empresa líder en el sector de mecanizados, y nuestro compromiso con la calidad y la eficiencia se refleja en cada proyecto que abordamos. Con un parque de maquinaria avanzado y tecnología punta, estamos equipados para abordar proyectos de mecanizado de cualquier escala y complejidad. Nuestro equipo de expertos altamente capacitados trabaja con nuestras máquinas de precisión para crear los mejores componentes.",
+            "Centre de mecanitzat ANAYAK",
+            "Una impressionant i versàtil màquina industrial dissenyada per realitzar una àmplia gamma d'operacions de mecanitzat d'alta precisió. Aquests centres de mecanitzat destaquen per la seva avançada tecnologia i característiques que els converteixen en eines indispensables. Equipats amb sistemes de control numèric CNC d'última generació, permeten programar i executar operacions de mecanització amb precisió microscòpica, fet que es tradueix en productes finals d'alta qualitat i toleràncies ajustades.",
+            "Fresadora de control numèric CME",
+            "Una eina altament especialitzada que combina la versatilitat del fresat amb la precisió i l'automatització d'un sistema de control numèric. Aquestes màquines, fabricades per la reconeguda empresa espanyola CME, són àmpliament utilitzades a la indústria manufacturera per produir peces i components amb una qualitat excepcional.",
+            "Centre de mecanitzat HAAS",
+            "Fabricat per l'empresa nord-americana Haas Automation, aquest equip es destaca per la seva qualitat, innovació i capacitat per fer una àmplia gamma d'operacions de mecanitzat amb gran eficiència. Compten amb diversos eixos de moviment que permeten realitzar una varietat d'operacions complexes en una sola configuració.",
+            "Tens un projecte en ment?"], 
+          "buttons" : "Contáctanos"
         },
         "contact": {
           "title" : "¿Quieres empezar un proyecto? ¡Hablemos!",
@@ -42,13 +72,28 @@
         }
     },
     "en": {
-        "nav": ["/en", "Us", "Equipment", "Contact"],
+        "nav": ["/en", "Home", "Equipment", "Contact"],
         "home": {
-          "title" : "Home",
-          "info" : "Welcome! We are Hefest, a Mechanization company located in Sant Fruitós de Bages. We have an industrial warehouse of 700 m2, operators with a lot of experience and love for this job. We are dedicated to the machining of all types of parts, whether they are single pieces or consignments. We work with ferrous material, aluminum, bronze, technical plastic, etc. We have CNC machining centers, CNC lathes, auxiliary machinery such as drilling, threading, conventional lathes, etc. We have a space of 500 m2 in case you are interested in making Assemblies. We quote the job within a maximum of 48 hours."
+          "title" : "Hefest mecanitzats",
+          "copy" : [
+            "Welcome! We are Hefest, a Machining company located in Sant Fruitós de Bages. We are dedicated to the machining of all types of parts, whether they are single pieces or consignments. We quote the work within 48 hours. Do you have a project in mind?" ,
+            "We do everything with love",
+            "How we work",
+            "We have an industrial warehouse of 700 m2, operators with a lot of experience and love for this work. We work with ferrous materials, aluminum, bronze, technical plastic, etc. We have CNC machining centers, CNC lathe, auxiliary machinery such as drilling, threading, conventional lathes, etc. We have a space of 500 M2 in case you are interested in doing assembly."],
+          "buttons" : ["Contact us", "View machinery"]
         },
         "about": {
-          "title" : "Machinery"
+          "title" : "Machinery",
+          "copy" : [
+            "We are a leading company in the machining sector, and our commitment to quality and efficiency is reflected in every project we tackle. With a wide range of advanced machinery and state-of-the-art technology, we are equipped to tackle mechanization projects of any scale and complexity. Our team of highly skilled experts work with our precise machines to create the finest components.",
+            "Centre de mecanitzat ANAYAK",
+            "Una impressionant i versàtil màquina industrial dissenyada per realitzar una àmplia gamma d'operacions de mecanitzat d'alta precisió. Aquests centres de mecanitzat destaquen per la seva avançada tecnologia i característiques que els converteixen en eines indispensables. Equipats amb sistemes de control numèric CNC d'última generació, permeten programar i executar operacions de mecanització amb precisió microscòpica, fet que es tradueix en productes finals d'alta qualitat i toleràncies ajustades.",
+            "Fresadora de control numèric CME",
+            "Una eina altament especialitzada que combina la versatilitat del fresat amb la precisió i l'automatització d'un sistema de control numèric. Aquestes màquines, fabricades per la reconeguda empresa espanyola CME, són àmpliament utilitzades a la indústria manufacturera per produir peces i components amb una qualitat excepcional.",
+            "Centre de mecanitzat HAAS",
+            "Fabricat per l'empresa nord-americana Haas Automation, aquest equip es destaca per la seva qualitat, innovació i capacitat per fer una àmplia gamma d'operacions de mecanitzat amb gran eficiència. Compten amb diversos eixos de moviment que permeten realitzar una varietat d'operacions complexes en una sola configuració.",
+            "Tens un projecte en ment?"], 
+          "buttons" : "Contact us"
         },
         "contact": {
           "title" : "Do you want to start a project? Let's talk!",
