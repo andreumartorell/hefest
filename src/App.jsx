@@ -10,7 +10,7 @@ import { Contact, Contact_es, Contact_en } from './pages/Contact'
 import { ChangeLng } from './components/ChangeLng'
 import { Logo } from './components/logo'
 import { Burger } from './components/Burger'
-import { ArrowUp } from './components/Arrowup'
+import { ArrowUp } from './components/ArrowUp'
 
 function App() {
 
