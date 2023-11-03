@@ -1,6 +1,14 @@
 import { useEffect, useState } from 'react'
 import './arrowup.css'
 
+const up = () => {
+  window.scrollTo({
+    top: 0,  // Puedes ajustar la posición de desplazamiento deseada
+    left: 0,
+    behavior: 'smooth'  // Habilita el desplazamiento suave
+  });
+}
+
 export const ArrowUp = () => {
 
   let lastScroll = window.scrollY;
@@ -24,7 +32,7 @@ export const ArrowUp = () => {
 
   return (
     <>
-    <a className='arrow-up' href="#">
+    <a className='arrow-up' onClick={up}>
      <i className="arrow-up__icon fa-solid fa-arrow-up"></i>
     </a>
     

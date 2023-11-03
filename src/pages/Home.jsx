@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom'
 
 let arr = ['ca', 'es', 'en']
 
+const up = () => {
+    if (window.scrollY != 0) {
+      window.scrollTo(0, 0)
+    }}
+
+
 export const [ Home, Home_es, Home_en ] = arr.map(() => {
   return ({text, r}) => {
     return (
@@ -16,7 +22,7 @@ export const [ Home, Home_es, Home_en ] = arr.map(() => {
             </div>
             <div className='section__item-cont'>
             <p className="section__text">{text.home.copy[0]}</p>
-            <Link to={`${r}/contact`} className='section__button'>{text.home.buttons[0]}</Link>
+            <Link to={`${r}/contact`} className='section__button'>{text.home.buttons[0]} </Link>
             </div>
           </div>
         </section>
@@ -33,7 +39,7 @@ export const [ Home, Home_es, Home_en ] = arr.map(() => {
             </div>
             <div className='section__item-cont'>
               <p className="section__text section__text--nomarg">{text.home.copy[3]}</p>
-              <Link to={`${r}/equipment`} className='section__button'>{text.home.buttons[1]}</Link>
+              <Link onClick={up} to={`${r}/equipment`} className='section__button'>{text.home.buttons[1]}</Link>
             </div>
           </div>
           <div className='product'>
