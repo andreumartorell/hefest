@@ -8,7 +8,7 @@ import { Thankyou, Thankyou_es, Thankyou_en } from './pages/Thankyou'
 import { About, About_es, About_en } from './pages/About'
 import { Contact, Contact_es, Contact_en } from './pages/Contact'
 import { ChangeLng } from './components/ChangeLng'
-import { Logo } from './components/Logo'
+import { Logo } from './components/logo'
 import { Burger } from './components/Burger'
 import { ArrowUp } from './components/Arrowup'
 
