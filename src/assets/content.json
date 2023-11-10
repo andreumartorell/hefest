@@ -32,7 +32,7 @@
           "buttons" : "Contacta amb nosaltres"
         },
         "contact": {
-          "title" : "Vols començar un projecte? Parlem!",
+          "title" : "Posem-nos en contacte!",
           "form" : ["Nom", "Cognom", "Email", "Missatge", "Esborrar", "Enviar"],
           "legal" : "La informació enviada no es guardarà a cap base de dades."
         },
@@ -70,7 +70,7 @@
           "buttons" : "Contáctanos"
         },
         "contact": {
-          "title" : "¿Quieres empezar un proyecto? ¡Hablemos!",
+          "title" : "Pongámonos en contacto",
           "form" : ["Nombre", "Apellido", "Email", "Mensaje", "Borrar", "Enviar"],
           "legal" : "La información enviada no se guardará en ninguna base de datos."
         },
@@ -108,7 +108,7 @@
           "buttons" : "Contact us"
         },
         "contact": {
-          "title" : "Do you want to start a project? Let's talk!",
+          "title" : "Let's get in touch",
           "form" : ["Name", "Surname", "Email", "Message", "Reset", "Send"],
           "legal" : "The information sent will not be saved in any database."
         },
