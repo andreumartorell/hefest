@@ -38,7 +38,7 @@
   width: 50%;
 }
 .about-mach__item--left {
-  width: auto;
+  width: 39%;
 }
 .about-mach__text {
   line-height: 154%;
@@ -58,10 +58,16 @@
 .about-mach__img--3 {
   object-position: 31% 0;
 }
+.about-mach__img--4 {
+  object-position: 0 104%;
+}
+.about-mach__img--5 {
+  object-position: 48% 0;
+}
 .link-contact {
   display: flex;
-  margin: 105px 0 170px;
-  gap: 30px;
+  margin: 170px 0px;
+  gap: 70px;
   flex-direction: column;
   align-items: center;
 }
@@ -90,9 +96,13 @@
 @media only screen and (max-width: 800px ){
   .about-hero {
     width: 100%;
+    margin: 22vw 0 50px;
   }
   .about-hero__h1 {
     font-size: 12vw;
+  }
+  .about-mach {
+    padding: 50px 20px;
   }
   .about-mach__machine {
     flex-direction: column;
@@ -109,15 +119,17 @@
   .about-mach__img {
     height: 75vw;
   }
+  .about-mach__img--4 {
+    height: 56vw;
+  }
   .link-contact {
-    margin-bottom: 100px;
+    margin: 15vw 0;
+    gap: 10vw;
   }
   .link-contact__text {
     font-size: 30px;
   }
 }
 @media only screen and (max-width: 300px ){
-  .about-hero {
-    margin: 22vw 0 7vh;
-  }
+
 }

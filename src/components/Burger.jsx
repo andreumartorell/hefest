@@ -7,8 +7,9 @@ export const Burger = () => {
   let bar =  document.querySelectorAll('.burger__bar')
   let naveg =  document.querySelector('.nav__items')
   let body =  document.querySelector('body')
+  let lng = document.querySelector('nav .changelng')
 
-  let element = [...bar, naveg, body]
+  let element = [...bar, naveg, body, lng]
 
   burger.addEventListener('click', () => {
     window.scrollTo(0, 0);

@@ -66,6 +66,7 @@ function App() {
             <li className='nav__item'><NavLink className={({isActive}) => {return isActive ? 'nav__link nav__link--is-active' : 'nav__link'}} to={`${r}/contact`}>{contact}</NavLink></li>
           </ul>
           <Burger />
+          <ChangeLng setInput={setInput} input={input} cookie={cookie}/>
           </nav>
         </div>
     </header>
@@ -114,7 +115,6 @@ function App() {
       </ul>
       <hr className='footer__hr'></hr>
       <p className='footer__copyright'>©2023 Hefest. {content.cont[input].footer.cr}.</p>
-
     </footer>
     </>
   )
