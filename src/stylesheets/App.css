@@ -160,6 +160,7 @@ nav .changelng {
 nav .changelng.active {
   visibility: visible;
   left: 10px;
+  z-index: 2;
 }
 nav .changelng.active .changelng__lng {
   font-size: 18px;
