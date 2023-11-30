@@ -3,9 +3,9 @@ import './arrowup.css'
 
 const up = () => {
   window.scrollTo({
-    top: 0,  // Puedes ajustar la posición de desplazamiento deseada
+    top: 0,
     left: 0,
-    behavior: 'smooth'  // Habilita el desplazamiento suave
+    behavior: 'smooth'
   });
 }
 
@@ -17,7 +17,7 @@ export const ArrowUp = () => {
 
   const checkScroll = () => {
     let currentScroll = window.scrollY
-    if (window.scrollY == 0 || lastScroll > currentScroll) setVisible(false)
+    if (lastScroll > currentScroll) setVisible(false)
     else setVisible(true)
     lastScroll = currentScroll;
   }
@@ -35,7 +35,6 @@ export const ArrowUp = () => {
     <a className='arrow-up' onClick={up}>
      <i className="arrow-up__icon fa-solid fa-arrow-up"></i>
     </a>
-    
     </>
   )
 }
