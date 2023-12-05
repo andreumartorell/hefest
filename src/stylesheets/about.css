@@ -11,34 +11,39 @@
   line-height: 154%;
 }
 .about-mach {
-  padding: 100px 20px;
+  padding: 100px 40px;
+  display: flex;
+  justify-content: space-between;
 }
 .about-mach--color {
   background: #87b2ff;
-  padding-right: 4vw;
+  /* padding-right: 4vw; */
+}
+.about-mach--w {
+  background: white;
 }
 .about-mach__machine {
   display: flex;
-  gap: 4vw;
-  justify-content: flex-end;
+  flex-direction: column;
+  width: 48%;
 }
 .about-mach__machine--reverse {
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
 }
 .about-mach__h1 {
   margin: 0 0 40px;
   font-weight: 100;
   line-height: 110%;
-  font-size: 40px;
+  font-size: 2vw;
 }
 .about-mach__h1--w {
   color: white;
 }
 .about-mach__item {
-  width: 50%;
+  /* width: 90%; */
 }
 .about-mach__item--left {
-  width: 39%;
+  /* width: 39%; */
 }
 .about-mach__text {
   line-height: 154%;
@@ -46,7 +51,7 @@
 }
 .about-mach__img {
   object-fit: cover;
-  height: 100%;
+  height: 22vw;
   width: 100%;
 }
 .about-mach__img--1{
@@ -56,7 +61,7 @@
   object-position: 79% 0;
 }
 .about-mach__img--3 {
-  object-position: 31% 0;
+  object-position: 0 86%;
 }
 .about-mach__img--4 {
   object-position: 0 104%;
@@ -78,8 +83,8 @@
   text-align: center;
 }
 @media only screen and (max-width: 1200px ){
-  .about-mach__item--left {
-    width: 50%;
+  .about-mach__h1 {
+    font-size: 2.5vw;
   }
   .about-mach__text {
     width: 100%;
@@ -96,40 +101,61 @@
 @media only screen and (max-width: 800px ){
   .about-hero {
     width: 100%;
-    margin: 22vw 0 50px;
+    margin: 22vw 0 70px;
   }
   .about-hero__h1 {
     font-size: 12vw;
   }
   .about-mach {
-    padding: 50px 20px;
+    padding: 0;
+    flex-direction: column;
   }
   .about-mach__machine {
     flex-direction: column;
+    width: 100%;
+    padding: 30px 20px 0;
+    box-sizing: border-box;
   }
-  .about-mach--color {
-    padding-right: 20px;
+  .about-mach__machine:nth-child(1){
+    background-color: #87b2ff;
+  }
+  .about-mach__machine:nth-child(1) h1{
+    color: white;
+  }
+  .about-mach--color, .about-mach--w {
+    background-color: #f0f0f0;;
   }
   .about-mach__item {
     width: 100%;
   }
   .about-mach__h1 {
-    font-size: 9vw;
+    font-size: 30px;
   }
   .about-mach__img {
     height: 75vw;
+    margin-bottom: 45px;
+  }
+  .about-mach__img--3 {
+    object-position: 45% 0;
   }
   .about-mach__img--4 {
-    height: 56vw;
+    object-position: 11% 0;
+  }
+  .about-mach__h1--w {
+    color: black;
   }
   .link-contact {
     margin: 15vw 0;
-    gap: 10vw;
   }
   .link-contact__text {
     font-size: 30px;
   }
 }
 @media only screen and (max-width: 300px ){
-
+  .about-mach__h1 {
+    font-size: 20px;
+  }
+  .link-contact {
+    margin: 70px 0;
+  }
 }
