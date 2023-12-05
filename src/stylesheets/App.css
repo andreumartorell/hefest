@@ -152,7 +152,6 @@ nav .changelng {
   padding: 0 5px;
   visibility: hidden;
   transition: 0.7s;
-  background: rebeccapurple;
   box-sizing: border-box;
 }
 .nav__items.active{
