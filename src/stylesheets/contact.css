@@ -24,7 +24,7 @@
 }
 .section-map__map {
   border: 5px solid white;
-  filter: grayscale();
+  /* filter: grayscale(); */
   width: 100%;
   box-sizing: border-box;
   z-index: -1;

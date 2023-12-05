@@ -144,13 +144,15 @@ footer .changelng__lng {
 nav .changelng {
   flex-direction: row;
   position: fixed;
-  top: 92vh;
+  /* top: 92vh; */
+  bottom: 0;
   left: 100%;
   height: 22px;
   width: 50%;
   padding: 0 5px;
   visibility: hidden;
   transition: 0.7s;
+  background: rebeccapurple;
   box-sizing: border-box;
 }
 .nav__items.active{
@@ -160,7 +162,6 @@ nav .changelng {
 nav .changelng.active {
   visibility: visible;
   left: 10px;
-  z-index: 2;
 }
 nav .changelng.active .changelng__lng {
   font-size: 18px;
