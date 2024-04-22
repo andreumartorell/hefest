@@ -22,7 +22,7 @@ function App() {
     if(!cookie.get('lng')){
       cookie.set('lng', 'ca', {path: '/', maxAge: 3600*24*3600})
       value = cookie.get('lng')
-    } 
+  }   
   } else {
     value = 'ca'
   }
