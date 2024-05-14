@@ -1,6 +1,4 @@
-import { Form_fs } from '../components/Form_fs'
 import '../stylesheets/contact.css'
-import content from '../assets/content.json'
 
 let arr = ['ca', 'es', 'en']
 
@@ -10,15 +8,16 @@ export const [ Contact, Contact_es, Contact_en ] = arr.map(() => {
     return (
       <>
       <div className='container'>
-      <section className="section-cont">
-        <h1 className='cont-h1'>{text.contact.title}</h1>
-        <div className='contact-container'>
-          <div className='contact-container__links'>
-            <a className='contact-container__link' href="mailto:taller@hefest.es">taller@hefest.es</a>
-            <a className='contact-container__link' href='tel:+34 93 247 1545'>93 247 1545</a>
-            <a className='contact-container__link' href='whatsapp://send?phone=34 640 38 71 76'>640 38 71 76</a>
+      <section className="section-contact">
+        <div className='section-contact__container'>
+          <h1 className='cont-h1'>{text.contact.title}</h1>
+          <div className='contact-container'>
+            <div className='contact-container__links'>
+              <a className='contact-container__link' href="mailto:taller@hefest.es">taller@hefest.es</a>
+              <a className='contact-container__link' href='tel:+34 93 247 1545'>93 247 1545</a>
+              <a className='contact-container__link' href='whatsapp://send?phone=34 640 38 71 76'>640 38 71 76</a>
+            </div>
           </div>
-          <Form_fs input={input} r={r} />
         </div>
       </section>
       <section className='section-map'>

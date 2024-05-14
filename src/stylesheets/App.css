@@ -50,8 +50,6 @@
   width: 0;
   left: 0;
   bottom: 17px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
   z-index: -1;
 }
