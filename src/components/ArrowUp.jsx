@@ -31,7 +31,7 @@ export const ArrowUp = () => {
   })
 
   return (
-    <>
+    <>  
     <a className='arrow-up' onClick={up}>
      <i className="arrow-up__icon fa-solid fa-arrow-up"></i>
     </a>
