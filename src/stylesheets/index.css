@@ -33,3 +33,6 @@ button {
 body.active {
   overflow: hidden;
 }
+font {
+pointer-events: none
+}
