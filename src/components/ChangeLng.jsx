@@ -1,4 +1,3 @@
-import content from '../assets/content.json'
 import './changelng.css'
 import { useNavigate } from 'react-router-dom'
 
