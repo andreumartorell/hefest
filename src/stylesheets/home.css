@@ -58,7 +58,10 @@
   padding: 220px 0;
   background: cornflowerblue;
   color: white;
-  background-image: url(/home/frase.jpg);
+  background-image: image-set(
+    url('/home/frase.webp') type('image/webp'),
+    url('/home/frase.jpg') type('image/jpg')
+    );
   background-size: cover;
   background-position: 0 69%;
   background-repeat: no-repeat;
@@ -68,9 +71,11 @@
   justify-content: space-between;
   margin-bottom: 85px;
 }
-.product__item {
+.product__picture {
   width: 31%;
-  height: 100%;
+}
+.product__item {
+  width: 100%;
 }
 @media only screen and (max-width: 1280px) {
   .hero-h1 {
@@ -116,7 +121,7 @@
     flex-direction: column;
     gap: 21px;
   }
-  .product__item {
+  .product__picture {
     width: auto;
   }
 }

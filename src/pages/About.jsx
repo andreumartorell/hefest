@@ -22,7 +22,10 @@ export const [ About, About_es, About_en ] = arr.map(() => {
             {/* <p className='about-mach__text'>{text.about.copy[2]}</p> */}
           </div>
           <div className='about-mach__item'>
-            <img className='about-mach__img about-mach__img--1' src="/about/m1.jpg" alt="Machine" />
+            <picture>
+              <source srcset="/about/m1.webp" type="image/webp" />
+              <img className='about-mach__img about-mach__img--1' src="/about/m1.jpg" alt="Machine" />
+            </picture>
           </div>
         </div>
         <div className='about-mach__machine'>
@@ -31,7 +34,10 @@ export const [ About, About_es, About_en ] = arr.map(() => {
             {/* <p className='about-mach__text'>{text.about.copy[4]}</p> */}
           </div>
           <div className='about-mach__item'>
-            <img className='about-mach__img about-mach__img--2' src="/about/m2.jpg" alt="Machine" />
+            <picture>
+              <source srcset="/about/m2.webp" type="image/webp" />
+              <img className='about-mach__img about-mach__img--2' src="/about/m2.jpg" alt="Machine" />
+            </picture>
           </div>
         </div>
       </section>
@@ -43,7 +49,10 @@ export const [ About, About_es, About_en ] = arr.map(() => {
             {/* <p className='about-mach__text'>{text.about.copy[6]}</p> */}
           </div>
           <div className='about-mach__item'>
-            <img className='about-mach__img about-mach__img--3' src="/about/m3.jpg" alt="Machine" />
+            <picture>
+              <source srcset="/about/m3.webp" type="image/webp" />
+              <img className='about-mach__img about-mach__img--3' src="/about/m3.jpg" alt="Machine" />
+            </picture>
           </div>
         </div>
         <div className='about-mach__machine'>
@@ -52,7 +61,10 @@ export const [ About, About_es, About_en ] = arr.map(() => {
             {/* <p className='about-mach__text'>{text.about.copy[8]}</p> */}
           </div>
           <div className='about-mach__item'>
-            <img className='about-mach__img about-mach__img--4' src="/about/m4.jpg" alt="Machine" />
+            <picture>
+              <source srcset="/about/m4.webp" type="image/webp" />
+              <img className='about-mach__img about-mach__img--4' src="/about/m4.jpg" alt="Machine" />
+            </picture>
           </div>
         </div>
       </section>
@@ -63,7 +75,10 @@ export const [ About, About_es, About_en ] = arr.map(() => {
             {/* <p className='about-mach__text'>{text.about.copy[10]}</p> */}
           </div>
           <div className='about-mach__item'>
-            <img className='about-mach__img about-mach__img--5' src="/about/m5.jpg" alt="Machine" />
+            <picture>
+              <source srcset="/about/m5.webp" type="image/webp" />
+              <img className='about-mach__img about-mach__img--5' src="/about/m5.jpg" alt="Machine" />
+            </picture>
           </div>
         </div>
       </section>

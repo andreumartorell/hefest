@@ -34,5 +34,5 @@ body.active {
   overflow: hidden;
 }
 font {
-pointer-events: none
+  pointer-events: none
 }
