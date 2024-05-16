@@ -15,7 +15,7 @@
   gap: 41px;
   align-items: start;
 }
-.section__h1 {
+.section__h2 {
   margin: 65px 0 35px;
   font-size: 50px;
 }
@@ -76,6 +76,7 @@
 }
 .product__item {
   width: 100%;
+  height: auto;
 }
 @media only screen and (max-width: 1280px) {
   .hero-h1 {
@@ -100,7 +101,7 @@
     width: auto;
     margin-left: 0;
   }
-  .section__h1 {
+  .section__h2 {
     font-size: 9vw;
   }
   .section__copy {
@@ -143,7 +144,7 @@
   .product {
     margin-bottom: 18vw;
   }
-  .section__h1 {
+  .section__h2 {
     margin-top: 55px;
   }
 }

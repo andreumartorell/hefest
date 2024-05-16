@@ -30,13 +30,13 @@
 .about-mach__machine--reverse {
   /* flex-direction: row-reverse; */
 }
-.about-mach__h1 {
+.about-mach__h2 {
   margin: 0 0 40px;
   font-weight: 100;
   line-height: 110%;
   font-size: 2vw;
 }
-.about-mach__h1--w {
+.about-mach__h2--w {
   color: white;
 }
 .about-mach__item {
@@ -83,7 +83,7 @@
   text-align: center;
 }
 @media only screen and (max-width: 1200px ){
-  .about-mach__h1 {
+  .about-mach__h2 {
     font-size: 2.5vw;
   }
   .about-mach__text {
@@ -128,7 +128,7 @@
   .about-mach__item {
     width: 100%;
   }
-  .about-mach__h1 {
+  .about-mach__h2 {
     font-size: 30px;
   }
   .about-mach__img {
@@ -141,7 +141,7 @@
   .about-mach__img--4 {
     object-position: 11% 0;
   }
-  .about-mach__h1--w {
+  .about-mach__h2--w {
     color: black;
   }
   .link-contact {
@@ -152,7 +152,7 @@
   }
 }
 @media only screen and (max-width: 300px ){
-  .about-mach__h1 {
+  .about-mach__h2 {
     font-size: 20px;
   }
   .link-contact {

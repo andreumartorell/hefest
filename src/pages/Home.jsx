@@ -14,7 +14,7 @@ export const [ Home, Home_es, Home_en ] = arr.map(() => {
             <div className='section__item-cont'>
             <picture>
               <source srcset="/home/seu.webp" type="image/webp" />
-              <img className='section__img' width="1000px" src="/home/seu.jpg" alt="Seu" />
+              <img className='section__img' width='620px' height='330px' src="/home/seu.jpg" alt="Seu" />
            </picture>
             </div>
             <div className='section__item-cont'>
@@ -29,12 +29,12 @@ export const [ Home, Home_es, Home_en ] = arr.map(() => {
         </section>
       <div className='container'>
         <section className='section'>
-          <h1 className='section__h1'>{text.home.copy[2]}</h1>
+          <h2 className='section__h2'>{text.home.copy[2]}</h2>
           <div className='section__copy section__copy--reverse'>
             <div className='section__item-cont'>
             <picture>
               <source srcset="/home/mach.webp" type="image/webp" />
-             <img className='section__img' width="1000px" src="/home/mach.jpg" alt="Pieces" />
+             <img className='section__img' width='450px' height='380px' src="/home/mach.jpg" alt="Pieces" />
            </picture>
             </div>
             <div className='section__item-cont'>
@@ -45,15 +45,15 @@ export const [ Home, Home_es, Home_en ] = arr.map(() => {
           <div className='product'>
             <picture className='product__picture'>
               <source srcset="/home/p2.webp" type="image/webp" />
-              <img width='300px' className='product__item' src="/home/p2.jpg" alt="Product" />              
+              <img width='450px' height='380px' className='product__item' src="/home/p2.jpg" alt="Product" />              
             </picture>
             <picture className='product__picture'>
               <source srcset="/home/p3.webp" type="image/webp" />
-              <img width='300px' className='product__item' src="/home/p3.jpg" alt="Product" />
+              <img width='450px' height='800px' className='product__item' src="/home/p3.jpg" alt="Product" />
            </picture>
            <picture className='product__picture'>
               <source srcset="/home/p1.webp" type="image/webp" />
-              <img width='300px' className='product__item' src="/home/p1.jpg" alt="Product" />
+              <img width='450px' height='580px'  className='product__item' src="/home/p1.jpg" alt="Product" />
            </picture>
           </div>
         </section>
