@@ -13,7 +13,7 @@ export const [ Home, Home_es, Home_en ] = arr.map(() => {
           <div className='section__copy'>
             <div className='section__item-cont'>
             <picture>
-              <source srcset="/home/seu.webp" type="image/webp" />
+              <source srcSet="/home/seu.webp" type="image/webp" />
               <img className='section__img' width='620px' height='330px' src="/home/seu.jpg" alt="Seu" />
            </picture>
             </div>
@@ -33,7 +33,7 @@ export const [ Home, Home_es, Home_en ] = arr.map(() => {
           <div className='section__copy section__copy--reverse'>
             <div className='section__item-cont'>
             <picture>
-              <source srcset="/home/mach.webp" type="image/webp" />
+              <source srcSet="/home/mach.webp" type="image/webp" />
              <img className='section__img' width='450px' height='380px' src="/home/mach.jpg" alt="Pieces" />
            </picture>
             </div>
@@ -44,15 +44,15 @@ export const [ Home, Home_es, Home_en ] = arr.map(() => {
           </div>
           <div className='product'>
             <picture className='product__picture'>
-              <source srcset="/home/p2.webp" type="image/webp" />
+              <source srcSet="/home/p2.webp" type="image/webp" />
               <img width='450px' height='380px' className='product__item' src="/home/p2.jpg" alt="Product" />              
             </picture>
             <picture className='product__picture'>
-              <source srcset="/home/p3.webp" type="image/webp" />
+              <source srcSet="/home/p3.webp" type="image/webp" />
               <img width='450px' height='800px' className='product__item' src="/home/p3.jpg" alt="Product" />
            </picture>
            <picture className='product__picture'>
-              <source srcset="/home/p1.webp" type="image/webp" />
+              <source srcSet="/home/p1.webp" type="image/webp" />
               <img width='450px' height='580px'  className='product__item' src="/home/p1.jpg" alt="Product" />
            </picture>
           </div>

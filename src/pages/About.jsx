@@ -23,7 +23,7 @@ export const [ About, About_es, About_en ] = arr.map(() => {
           </div>
           <div className='about-mach__item'>
             <picture>
-              <source srcset="/about/m1.webp" type="image/webp" />
+              <source srcSet="/about/m1.webp" type="image/webp" />
               <img width='870px' height='420px' className='about-mach__img about-mach__img--1' src="/about/m1.jpg" alt="Machine" />
             </picture>
           </div>
@@ -35,7 +35,7 @@ export const [ About, About_es, About_en ] = arr.map(() => {
           </div>
           <div className='about-mach__item'>
             <picture>
-              <source srcset="/about/m2.webp" type="image/webp" />
+              <source srcSet="/about/m2.webp" type="image/webp" />
               <img width='870px' height='420px' className='about-mach__img about-mach__img--2' src="/about/m2.jpg" alt="Machine" />
             </picture>
           </div>
@@ -50,7 +50,7 @@ export const [ About, About_es, About_en ] = arr.map(() => {
           </div>
           <div className='about-mach__item'>
             <picture>
-              <source srcset="/about/m3.webp" type="image/webp" />
+              <source srcSet="/about/m3.webp" type="image/webp" />
               <img width='870px' height='420px' className='about-mach__img about-mach__img--3' src="/about/m3.jpg" alt="Machine" />
             </picture>
           </div>
@@ -62,7 +62,7 @@ export const [ About, About_es, About_en ] = arr.map(() => {
           </div>
           <div className='about-mach__item'>
             <picture>
-              <source srcset="/about/m4.webp" type="image/webp" />
+              <source srcSet="/about/m4.webp" type="image/webp" />
               <img width='870px' height='420px' className='about-mach__img about-mach__img--4' src="/about/m4.jpg" alt="Machine" />
             </picture>
           </div>
@@ -76,7 +76,7 @@ export const [ About, About_es, About_en ] = arr.map(() => {
           </div>
           <div className='about-mach__item'>
             <picture>
-              <source srcset="/about/m5.webp" type="image/webp" />
+              <source srcSet="/about/m5.webp" type="image/webp" />
               <img width='870px' height='420px' className='about-mach__img about-mach__img--5' src="/about/m5.jpg" alt="Machine" />
             </picture>
           </div>
